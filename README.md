@@ -2,6 +2,7 @@
 
 **Họ tên:** Nguyễn Quang Vui  
 **ID:** 108958
+**Lớp:** IT24C
 
 Đây là phần cài đặt **Danh sách liên kết đơn (Singly Linked List)** bằng ngôn ngữ Java.  
 Mã nguồn minh họa các thao tác cơ bản như:
