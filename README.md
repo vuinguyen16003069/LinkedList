@@ -1,32 +1,28 @@
-#Họ tên:Nguyễn Quang Vui
-#Id:108958
+# 📘 MyLinkedList (Java)
 
-# MyLinkedList (Java)
+**Họ tên:** Nguyễn Quang Vui  
+**ID:** 108958
 
-Đây là một cài đặt **danh sách liên kết đơn (Singly Linked List)** bằng Java.  
-Code minh họa các thao tác cơ bản trên danh sách liên kết:
+Đây là phần cài đặt **Danh sách liên kết đơn (Singly Linked List)** bằng ngôn ngữ Java.  
+Mã nguồn minh họa các thao tác cơ bản như:
 
-- Thêm phần tử (đầu, cuối, vị trí bất kỳ).
-- Xóa phần tử (đầu, cuối, vị trí bất kỳ).
-- Duyệt và in danh sách.
-
----
-
-## 📂 Cấu trúc lớp
-
-### Lớp `Node`
-- Mỗi node gồm:
-  - `int value`: giá trị.
-  - `Node next`: con trỏ tới node tiếp theo.
-- Hàm tạo: `Node(int value)`.
-
-### Lớp `MyLinkedList`
-- Chứa các phương thức tĩnh (static) để thao tác trên danh sách.
+✅ Thêm phần tử  
+✅ Xóa phần tử  
+✅ Duyệt và in danh sách
 
 ---
 
-## ⚙️ Các phương thức chính
+## 📂 Cấu trúc chương trình
 
-### 1. In danh sách
+### 🔹 Lớp `Node`
+Đại diện cho một phần tử trong danh sách.
+
 ```java
-printLinkedList(Node head)
+public static class Node {
+    int value;
+    Node next;
+
+    Node(int value) {
+        this.value = value;
+    }
+}
