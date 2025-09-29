@@ -1,3 +1,6 @@
+#Họ tên:Nguyễn Quang Vui
+#Id:108958
+
 # MyLinkedList (Java)
 
 Đây là một cài đặt **danh sách liên kết đơn (Singly Linked List)** bằng Java.  
